@@ -26,5 +26,6 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+Hieu Phan is a research scientist at Google. He is an expert in multimodal LLMs, vision language models, knowledge distillation, and continual learning. He holds a PhD (University of Wollongong) and completed a postdoc at the Australian Institute for Machine Learning, Adelaide University. He has (co-) authored 20+ papers, published at ICCV, CVPR, IJCV, ACL, MICCAI. Hieu secured competitive research funding to translate research into industry.
 
-Humans perceive the visual worlds as symbols. Reason and imagine. My research mission: how to link visual pereptions to concepts; so the machine can understand, reason, and predict the future.
+Research statement: Humans perceive the visual worlds as symbols. Reason and imagine. How to link visual pereptions to concepts; so the machine can understand, reason, and predict the future.
