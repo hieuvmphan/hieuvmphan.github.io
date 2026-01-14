@@ -1,200 +1,181 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Hieu Phan",
+    "label": "Research Scientist — AI / Machine Learning",
+    "image": "assets/img/profile.jpg",
+    "email": "hieup007@gmail.com",
+    "phone": "0413752189",
+    "url": "https://github.com/hieuvmphan",
+    "summary": "Research scientist specializing in multimodal LLMs, knowledge distillation and continual learning. PhD (UoW), postdoc at AIML, industry experience in vision language model research.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Sydney",
+      "countryCode": "AU",
+      "region": "Australia"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "HieuPhan33",
+        "url": "https://github.com/hieuvmphan"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "Hieu Phan",
+        "url": "https://scholar.google.com.au/citations?user=gSEw8EsAAAAJ&hl=en"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "hieu-p",
+        "url": "https://www.linkedin.com/in/hieu-p/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Google",
+      "position": "Research Scientist",
+      "startDate": "2024-10-01",
+      "summary": "Research on multimodal LLMs with improved visual perception for clinical and general applications."
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Australian Institute for Machine Learning, University of Adelaide",
+      "position": "Postdoctoral Research Fellow",
+      "url": "https://researchers.adelaide.edu.au/profile/vuminhhieu.phan",
+      "startDate": "2022-11-16",
+      "endDate": "2025-08-31",
+      "summary": "Developed vision–language and generative models for medical imaging; led tumour segmentation pipelines in clinical settings; supervised PhD/postgrad students; secured competitive grants."
+    },
+    {
+      "name": "University of Wollongong",
+      "position": "Machine Learning Engineer",
+      "startDate": "2021-11-01",
+      "endDate": "2022-11-30",
+      "summary": "Built and deployed ML models (edge & cloud) for environmental monitoring; led projects with government endorsement."
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "University of Wollongong",
+      "area": "Computer Science",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2020-01-01",
+      "endDate": "2023-12-31",
+      "thesis": "Knowledge Distillation and Continual Learning for Optimized Deep Neural Networks"
+    },
+    {
+      "institution": "University of Wollongong",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2017-01-01",
+      "endDate": "2019-12-31",
+      "score": "9/10"
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "University Postgraduate Award (PhD Scholarship)",
+      "date": "2021"
+    },
+    {
+      "title": "Dean's Merit Award (top 5%)",
+      "date": "2017-2019"
     }
   ],
-  "certificates": [
+  "grants": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "title": "AI-assisted Contouring of Sarcomas (Channel 7 Children's Research Foundation)",
+      "role": "Chief Investigator",
+      "amount": 39570,
+      "date": "2023",
+      "url": "https://crf.org.au/ai-assisted-contouring-of-sarcomas-to-improve-safety-of-proton-therapy-in-children/"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "title": "Paediatric Radiation Therapy with AI-based Segmentation (NeuroSurgical Research Foundation)",
+      "role": "Associate Investigator",
+      "amount": 47790,
+      "date": "2023"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Seeing the trees for the forest: rethinking weakly-supervised medical visual grounding",
+      "publisher": "ICCV (Spotlight)",
+      "releaseDate": "2025",
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Huy_Seeing_the_Trees_for_the_Forest_Rethinking_Weakly-Supervised_Medical_Visual_ICCV_2025_paper.pdf"
+    },
+
+    {
+      "name": "Localizing Before Answering: A Hallucination Evaluation Benchmark for Grounded Medical Multimodal LLMs",
+      "publisher": "IJCAI",
+      "releaseDate": "2025",
+      "url": "https://www.ijcai.org/proceedings/2025/0853.pdf"
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Decomposing Disease Descriptions for Enhanced Pathology Detection: A Multi-Aspect Vision-Language Pre-training Framework",
+      "publisher": "CVPR",
+      "releaseDate": "2024",
+      "url": "https://cvpr.thecvf.com/virtual/2024/poster/30353"
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Structural Attention: Rethinking Transformer for Unpaired Medical Image Synthesis",
+      "publisher": "MICCAI",
+      "releaseDate": "2024",
+      "url": "https://papers.miccai.org/miccai-2024/paper/0456_paper.pdf"
+    },
+    {
+      "name": "CARER - ClinicAl Reasoning-Enhanced Representation for Temporal Health Risk Prediction",
+      "publisher": "EMNLP",
+      "releaseDate": "2024",
+      "url": "https://aclanthology.org/2024.emnlp-main.580/"
+    },
+    {
+      "name": "Class Similarity Weighted Knowledge Distillation for Continual Semantic Segmentation",
+      "publisher": "CVPR",
+      "releaseDate": "2022"
+    },
+    {
+      "name": "SegViTv2: Efficient and Continual Semantic Segmentation with Plain Vision Transformers",
+      "publisher": "IJCV",
+      "releaseDate": "2023"
+    },
+    {
+      "name": "MaskGAN: Structure-Preserving Synthesis for MR-CT Translation",
+      "publisher": "MICCAI",
+      "releaseDate": "2023"
+    },
+    {
+      "name": "Modelling context and syntactical features for aspect-based sentiment analysis",
+      "publisher": "ACL",
+      "releaseDate": "2020",
+      "url": "https://aclanthology.org/2020.acl-main.293/"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Machine Learning",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Multimodal LLMs",
+        "Vision Transformers",
+        "Generative Models (GAN/ViT)",
+        "Knowledge Distillation",
+        "Continual Learning",
+        "Medical Image Analysis",
+        "Prompt Engineering"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Engineering",
+      "keywords": ["Python", "PyTorch", "TensorFlow", "Model deployment (Azure, edge)", "Git"]
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Vision LLM for clinical diagnosis",
+      "summary": "Developed end-to-end vision–language model for pathology detection and report assistance. Published at CVPR2024."
+    },
+    {
+      "name": "Generative medical image synthesis",
+      "summary": "Transformer‑based unpaired MR→CT synthesis (MaskGAN). Published at MICCAI 2023/2024."
     }
   ]
 }
