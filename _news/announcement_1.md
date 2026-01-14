@@ -1,8 +1,6 @@
 ---
-layout: post
-date: 2015-10-22 15:59:00-0400
-inline: true
-related_posts: false
+title: "ICCV Outstanding Reviewer award"
+date: 2025-08-01
+link: false
 ---
-
-A simple inline announcement.
+Awarded ICCV Outstanding Reviewer (Aug 2025).
