@@ -440,18 +440,37 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-2-papers-accepted-at-cvpr-2024",
+          title: '2 papers accepted at CVPR 2024',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_6/";
+            },},{id: "news-xai-paper-accepted-at-cvpr-2024",
+          title: 'xAI paper accepted at CVPR 2024',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_5/";
+            },},{id: "news-vllm-paper-accepted-at-ijcai-2025",
+          title: 'vLLM paper accepted at IJCAI 2025',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_3/";
+            },},{id: "news-vllm-paper-accepted-at-ijcai-2025",
+          title: 'vLLM paper accepted at IJCAI 2025',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_4/";
+            },},{id: "news-3-vlm-papers-accepted-at-iccv-2025-1-highlight",
+          title: '3 VLM papers accepted at ICCV 2025 — 1 Highlight',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-iccv-outstanding-reviewer-award",
+          title: 'ICCV Outstanding Reviewer award',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_1/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
