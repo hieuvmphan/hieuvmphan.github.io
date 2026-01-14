@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
@@ -28,4 +28,3 @@ latest_posts:
 ---
 
 Humans perceive the visual worlds as symbols. Reason and imagine. My research mission: how to link visual pereptions to concepts; so the machine can understand, reason, and predict the future.
-
