@@ -19,14 +19,14 @@ Hieu Phan is a research scientist at Google Research (Sydney) with a track recor
 Humans perceive the visual world as symbols, reasoning and imagining. My work focuses on linking visual perceptions to concepts so that machines can understand, and reason the visual world.
 
 ## 🔥 News
-- **2026.03:** CVPR 2026 accepted two papers on LVLM hallucination detection and confounder tracing.
-- **2025.10:** CVPR 2025 accepted two papers (Interactive Medical Image Analysis with Concept-based Similarity Reasoning; Looking in the Mirror).
+- **2026.03:** Two papers accepted at CVPR 2026 on LVLM hallucination detection.
 - **2025.09:** <img src="images/g-logo.jpg" alt="Google logo" class="inline-logo"> Joined Google Research Sydney as a Vision-Language Modeling Research Scientist.
-- **2025.08:** ICCV 2025 accepted two papers, including an ICCV Highlight for weakly supervised medical grounding and OVG-HQ for hybrid-modal video grounding.
-- **2024.11:** CVPR 2024 accepted the multi-aspect pathology description framework.
-- **2023.08:** IJCV published SegViTv2 for efficient continual segmentation.
-- **2022.06:** CVPR 2022 accepted the class similarity weighted knowledge distillation method.
-- **2020.12:** ACL 2020 accepted the LCFS-BERT framework for aspect-based sentiment analysis.
+- **2025.08:** Three papers accepted at ICCV 2025, including an ICCV Highlight on VLM's visual grounding.
+- **2025.02:** One paper accepted at CVPR 2025 on interpretability.
+- **2024.02:** CVPR 2024 accepted the multi-aspect vision-language pre-training.
+- **2023.08:** IJCV published SegViTv2 for efficient Transformer-based segmentation models.
+- **2022.02:** One paper accepted at CVPR 2022 on knowledge distillation for continual segmentation.
+- **2020.12:** One paper accepted at ACL 2020 for syntactical-enhanced BERT model.
 
 ## 📝 Selected Publications
 <div class='paper-box'>
