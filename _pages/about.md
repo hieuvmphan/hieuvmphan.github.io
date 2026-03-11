@@ -56,6 +56,7 @@ Analyzes confounder paths inside LVLM decoders and surfaces the layers where gro
 Highlights prompt-feature pairings to reconcile coarse annotations with fine-grained localization in medical imaging.
 
 <p class="impact">Impact: Chosen as an ICCV 2025 Highlight for pushing interpretability in weak supervision.</p>
+<p class="publication-links"><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Huy_Seeing_the_Trees_for_the_Forest_Rethinking_Weakly-Supervised_Medical_Visual_ICCV_2025_paper.pdf" target="_blank" rel="noopener">Paper</a> · <span class="publication-links__na">Code: pending</span></p>
 </div>
 </div>
 
@@ -68,6 +69,7 @@ Highlights prompt-feature pairings to reconcile coarse annotations with fine-gra
 OVG-HQ-Unify leverages a Parametric Memory Block and cross-modal distillation to keep previous knowledge while strengthening weaker modalities in limited-context online settings.
 
 <p class="impact">Impact: Empowers a single model to handle hybrid-modal queries despite modality imbalance.</p>
+<p class="publication-links"><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Zeng_OVG-HQ_Online_Video_Grounding_with_Hybrid-modal_Queries_ICCV_2025_paper.pdf" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/maojiaqi2324/OVG-HQ" target="_blank" rel="noopener">Code</a></p>
 </div>
 </div>
 
@@ -80,6 +82,7 @@ OVG-HQ-Unify leverages a Parametric Memory Block and cross-modal distillation to
 The Localize-before-Answer (LobA) framework trains LMMs to spot regions of interest and self-prompt on segmented pathological areas before producing answers.
 
 <p class="impact">Impact: Boosts visual reasoning by forcing grounding first, then generating reliable answers.</p>
+<p class="publication-links"><a href="https://www.ijcai.org/proceedings/2025/853" target="_blank" rel="noopener">Paper</a> · <span class="publication-links__na">Code: pending</span></p>
 </div>
 </div>
 
@@ -92,6 +95,21 @@ The Localize-before-Answer (LobA) framework trains LMMs to spot regions of inter
 Dissects biomedical texts into aspect-centric representations via LLMs and medical experts, then aligns each aspect with image cues through a dual-head Transformer.
 
 <p class="impact">Impact: Aligns images with disease representations by matching diverse aspects, yielding stronger compatibility scores for known and unknown pathologies.</p>
+<p class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Phan_Decomposing_Disease_Descriptions_for_Enhanced_Pathology_Detection_A_Multi-Aspect_Vision-Language_CVPR_2024_paper.pdf" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/hieuvmphan/CVPR2024_MAVL" target="_blank" rel="noopener">Code</a></p>
+</div>
+</div>
+
+
+<div class='paper-box'>
+<div class='paper-box-image'><div><div class="badge">IJCV 2023</div><img src="images/500x300.png" alt='SegViTv2' width='100%'></div></div>
+<div class='paper-box-text' markdown="1">
+
+**SegViTv2: Exploring Efficient and Continual Semantic Segmentation with Plain Vision Transformers**
+
+SegViTv2 couples an Attention-to-Mask decoder with a Shrunk++ encoder so ViT attention maps become lightweight semantic masks, enabling efficient segmentation with near-zero forgetting.
+
+<p class="impact">Impact: Converts ViT attentions into high-quality masks while trimming encoder cost, and maintains prior knowledge when adapted to continual segmentation.</p>
+<p class="publication-links"><a href="https://link.springer.com/article/10.1007/s11263-023-01894-8" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/zbwxp/SegVit" target="_blank" rel="noopener">Code</a></p>
 </div>
 </div>
 
@@ -104,6 +122,7 @@ Dissects biomedical texts into aspect-centric representations via LLMs and medic
 Weights the distillation loss by class similarity to preserve fine-grained structure during incremental learning, reducing forgetting on long-tail categories.
 
 <p class="impact">Impact: Serves as a reference for class-aware distillation in continual segmentation and on-device updates.</p>
+<p class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Phan_Class_Similarity_Weighted_Knowledge_Distillation_for_Continual_Semantic_Segmentation_CVPR_2022_paper.pdf" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/hieuvmphan/REMINDER" target="_blank" rel="noopener">Code</a></p>
 </div>
 </div>
 
