@@ -132,12 +132,12 @@ h1:before, .anchor:before {
 .publication-links {
     font-size: 0.9em;
     margin-top: 0.6em;
-    color: var(--accent);
+    color: #0b57d0;
 }
 
 .publication-links a {
-    color: var(--accent);
-    text-decoration: none;
+    color: #0b57d0;
+    text-decoration: underline;
     font-weight: 600;
 }
 
@@ -148,5 +148,36 @@ h1:before, .anchor:before {
 .publication-links__na {
     color: #8a8a8a;
     font-style: italic;
+}
+
+
+
+.cta {
+    margin: 1.5rem 0;
+}
+
+.cta a {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.6rem 1.5rem;
+    border: 2px solid #0b57d0;
+    color: #0b57d0;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 999px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.cta a:hover {
+    background: #0b57d0;
+    color: #fff;
+}
+
+.inline-logo {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 0.4rem;
+    border-radius: 4px;
 }
 

@@ -12,15 +12,21 @@ redirect_from:
 
 Hieu Phan is a research scientist at Google Research (Sydney) with a track record of translating multimodal intelligence research into production-ready systems. He specializes in **multimodal LLMs**, **vision-language grounding**, **knowledge distillation**, and **continual learning**. Hieu holds a PhD from the University of Wollongong and completed his postdoctoral work at the Australian Institute for Machine Learning (AIML) at the University of Adelaide.
 
+<p class="cta"><a href="/files/atlas-hieu-phan-cv.pdf" target="_blank" rel="noopener">Download CV</a></p>
+
 ## Research Statement
 
 Humans perceive the visual world as symbols, reasoning and imagining. My work focuses on linking visual perceptions to concepts so that machines can understand, reason, and predict across language, vision, and audio modalities. I develop robust evaluation pipelines, grounding metrics, and representation models that keep pace with large-scale industrial deployments.
 
 ## 🔥 News
-- **2026.03:** CVPR 2026 accepted 2 papers on detection pipelines for LVLM hallucinations and confounder propagation.
-- **2025.10:** CVPR 2025 accepted 2 papers (Interactive Medical Image Analysis with Concept-based Similarity Reasoning and Looking in the Mirror: Faithful Counterfactual Explanations).
-- **2025.09:** ICCV 2025 Highlight (medical visual grounding) and recognition as an ICCV 2025 Outstanding Reviewer.
-- **2024.11:** CVPR 2024 accepted 1 paper on multi-aspect pathology descriptions.
+- **2026.03:** CVPR 2026 accepted two papers on LVLM hallucination detection and confounder tracing.
+- **2025.10:** CVPR 2025 accepted two papers (Interactive Medical Image Analysis with Concept-based Similarity Reasoning; Looking in the Mirror).
+- **2025.09:** <img src="images/g-logo.jpg" alt="Google logo" class="inline-logo"> Joined Google Research Sydney as a Vision-Language Modeling Research Scientist.
+- **2025.08:** ICCV 2025 accepted two papers, including an ICCV Highlight for weakly supervised medical grounding and OVG-HQ for hybrid-modal video grounding.
+- **2024.11:** CVPR 2024 accepted the multi-aspect pathology description framework.
+- **2023.08:** IJCV published SegViTv2 for efficient continual segmentation.
+- **2022.06:** CVPR 2022 accepted the class similarity weighted knowledge distillation method.
+- **2020.12:** ACL 2020 accepted the LCFS-BERT framework for aspect-based sentiment analysis.
 
 ## 📝 Selected Publications (high-impact venues)
 <div class='paper-box'>
@@ -101,7 +107,7 @@ Dissects biomedical texts into aspect-centric representations via LLMs and medic
 
 
 <div class='paper-box'>
-<div class='paper-box-image'><div><div class="badge">IJCV 2023</div><img src="images/500x300.png" alt='SegViTv2' width='100%'></div></div>
+<div class='paper-box-image'><div><div class="badge">IJCV 2023</div><img src="images/ijcv'25.png" alt='SegViTv2' width='100%'></div></div>
 <div class='paper-box-text' markdown="1">
 
 **SegViTv2: Exploring Efficient and Continual Semantic Segmentation with Plain Vision Transformers**
@@ -114,7 +120,22 @@ SegViTv2 couples an Attention-to-Mask decoder with a Shrunk++ encoder so ViT att
 </div>
 
 <div class='paper-box'>
-<div class='paper-box-image'><div><div class="badge">CVPR 2022</div><img src="images/REMINDER.png" alt='Class similarity weighted knowledge distillation' width='100%'></div></div>
+<div class='paper-box-image'><div><div class="badge">CVPR 2022
+
+
+<div class='paper-box'>
+<div class='paper-box-image'><div><div class="badge">ACL 2020</div><img src="images/acl'20.png" alt='LCFS-BERT' width='100%'></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Modelling context and syntactical features for aspect-based sentiment analysis**
+
+Introduced LCFS-BERT, the first framework to bridge the syntactical gap in Transformer models for aspect extraction and sentiment classification, delivering new state-of-the-art results.
+
+<p class="impact">Impact: Resolves the syntactical blind spot of BERT-based ABSA systems and sets SoTA on aspect extraction and sentiment benchmarks.</p>
+<p class="publication-links"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gSEw8EsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=gSEw8EsAAAAJ:u-x6o8ySG0sC" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/hieuvmphan/LCFS-BERT" target="_blank" rel="noopener">Code</a></p>
+</div>
+</div>
+</div><img src="images/REMINDER.png" alt='Class similarity weighted knowledge distillation' width='100%'></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Class similarity weighted knowledge distillation for continual semantic segmentation**
