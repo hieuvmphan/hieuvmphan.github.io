@@ -120,8 +120,17 @@ SegViTv2 couples an Attention-to-Mask decoder with a Shrunk++ encoder so ViT att
 </div>
 
 <div class='paper-box'>
-<div class='paper-box-image'><div><div class="badge">CVPR 2022
+<div class='paper-box-image'><div><div class="badge">CVPR 2022</div><img src="images/REMINDER.png" alt='Class similarity weighted knowledge distillation' width='100%'></div></div>
+<div class='paper-box-text' markdown="1">
 
+**Class similarity weighted knowledge distillation for continual semantic segmentation**
+
+Weights the distillation loss by class similarity to preserve fine-grained structure during incremental learning, reducing forgetting on long-tail categories.
+
+<p class="impact">Impact: Serves as a reference for class-aware distillation in continual segmentation.</p>
+<p class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Phan_Class_Similarity_Weighted_Knowledge_Distillation_for_Continual_Semantic_Segmentation_CVPR_2022_paper.pdf" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/hieuvmphan/REMINDER" target="_blank" rel="noopener">Code</a></p>
+</div>
+</div>
 
 <div class='paper-box'>
 <div class='paper-box-image'><div><div class="badge">ACL 2020</div><img src="images/acl'20.png" alt='LCFS-BERT' width='100%'></div></div>
@@ -129,47 +138,37 @@ SegViTv2 couples an Attention-to-Mask decoder with a Shrunk++ encoder so ViT att
 
 **Modelling context and syntactical features for aspect-based sentiment analysis**
 
-Introduced LCFS-BERT, the first framework to bridge the syntactical gap in Transformer models for aspect extraction and sentiment classification, delivering new state-of-the-art results.
+Introduced LCFS-BERT, the first framework to bridge the syntactical gap in Transformer models for aspect extraction and sentiment classification, delivering new state-of-the-art results in 2020.
 
-<p class="impact">Impact: Resolves the syntactical blind spot of BERT-based ABSA systems and sets SoTA on aspect extraction and sentiment benchmarks.</p>
+<p class="impact">Impact: Resolves the syntactical blind spot of Transformers and sets SoTA on aspect extraction and sentiment benchmarks.</p>
+
 <p class="publication-links"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gSEw8EsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=gSEw8EsAAAAJ:u-x6o8ySG0sC" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/hieuvmphan/LCFS-BERT" target="_blank" rel="noopener">Code</a></p>
 </div>
 </div>
-</div><img src="images/REMINDER.png" alt='Class similarity weighted knowledge distillation' width='100%'></div></div>
-<div class='paper-box-text' markdown="1">
 
-**Class similarity weighted knowledge distillation for continual semantic segmentation**
-
-Weights the distillation loss by class similarity to preserve fine-grained structure during incremental learning, reducing forgetting on long-tail categories.
-
-<p class="impact">Impact: Serves as a reference for class-aware distillation in continual segmentation and on-device updates.</p>
-<p class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Phan_Class_Similarity_Weighted_Knowledge_Distillation_for_Continual_Semantic_Segmentation_CVPR_2022_paper.pdf" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/hieuvmphan/REMINDER" target="_blank" rel="noopener">Code</a></p>
-</div>
-</div>
-
-Visit the Google Scholar crawler action (see README) to refresh the citation data living under `google-scholar-stats/gs_data_shieldsio.json`. Use `<span class='show_paper_citations' data='[google-paper-id]'></span>` whenever you want to highlight an individual paper’s citation count.
+<!-- Visit the Google Scholar crawler action (see README) to refresh the citation data living under `google-scholar-stats/gs_data_shieldsio.json`. Use `<span class='show_paper_citations' data='[google-paper-id]'></span>` whenever you want to highlight an individual paper’s citation count. -->
 
 ## 🌱 Research Projects
-- **Vision-Language Hallucination Detection:** Architected token-level grounding diagnostics that detect hallucinations in LVLM outputs and plugged them into Google Research evaluation suites.
-- **Medical Visual Grounding + Explainability:** Led concept-based similarity reasoning systems for medical image analysis, pairing counterfactual explanations with expert feedback loops.
-- **Continual & Distillation Systems:** Designed class-independent transformations and multi-head distillation to maintain segmentation accuracy as new domains arrive.
+- **Vision-Language Hallucination Detection:** Architected token-level grounding diagnostics that detect hallucinations in LVLM outputs.
+- **Perception-grounded Vision-Language Model:** Created multimodal LLMs and VLMs that ground on visual evidence before predicting. Created proof-of-concept model on medical imaging domain.
+- **Continual & Distillation Systems:** Designed knowledge distillation framework for model compression and continual learning via knowledge anchor.
 
 ## 🎖 Achievements
 - **2023:** Chief Investigator on a $40k research grant from the Channel 7 Children’s Research Foundation for tumor segmentation (see [media link](https://crf.org.au/ai-assisted-contouring-of-sarcomas-to-improve-safety-of-proton-therapy-in-children/)).
 - **2022:** Co-Investigator on a $50k research grant from the Queensland Department of Transport and Main Roads covering scene segmentation for road conditioning assessment.
 - **2021–2023:** University Postgraduate Award (PhD scholarship), University of Wollongong.
-- **2020:** Best Research Paper Award, IEEE SmartIoT Conference.
+<!-- - **2020:** Best Research Paper Award, IEEE SmartIoT Conference. -->
 - **2017–2019:** Dean’s Merit Award (top 5% in faculty), University of Wollongong.
 
 ## 📖 Education
 - **2020–2023:** Doctor of Philosophy, “Knowledge Distillation and Continual Learning for Optimized Deep Neural Networks,” University of Wollongong.
 - **2017–2019:** Bachelor of Computer Science (GPA 9/10), University of Wollongong.
 
-## 💬 Invited Talks & Workshops
+<!-- ## 💬 Invited Talks & Workshops
 - CVPR 2025 Workshop on Vision-Language Alignment (Sydney) – *“Grounded hallucination diagnostics for industrial LVLMs.”*
-- MICCAI 2025 Industrial Spotlight – *“Concept-based similarity reasoning in medical imaging.”*
+- MICCAI 2025 Industrial Spotlight – *“Concept-based similarity reasoning in medical imaging.”* -->
 
-## 💻 Internships & Collaboration
+## 💻 Collaboration
 - Google Research Sydney – Research Scientist (current).
 - Collaborative projects with AIML, University of Adelaide and CSIRO to translate medical grounding research into clinical pilots.
 
