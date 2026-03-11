@@ -29,10 +29,9 @@ Humans perceive the visual world as symbols, reasoning and imagining. My work fo
 
 **Beyond the Global Scores: Fine-Grained Token Grounding as a Robust Detector of LVLM Hallucinations**
 
-Token-level grounding metrics that detect hallucinations with high sensitivity, paired with a classifier that distinguishes grounded tokens from spurious generations.
+Token-level grounding metrics detect hallucinations with high sensitivity and flag spurious generations before they leave the model stack.
 
-<p class="impact">Academic Impact: Provides a benchmark for LVLM hallucination detection across grounding layers.</p>
-<p class="impact">Industry Impact: Embedded into Google Research evaluation suites to monitor hallucination drift.</p>
+<p class="impact">Impact: Sets a benchmark for LVLM hallucination detection and keeps grounded tokens distinguishable from noise.</p>
 </div>
 </div>
 
@@ -42,23 +41,9 @@ Token-level grounding metrics that detect hallucinations with high sensitivity, 
 
 **Overthinking Causes Hallucination: Tracing Confounder Propagation in Vision Language Models**
 
-Characterizes how confounders proliferate through LVLM decoders and proposes diagnostic paths that reveal the exact layers where grounding breaks down.
+Analyzes confounder paths inside LVLM decoders and surfaces the layers where grounding diverges from actual context.
 
-<p class="impact">Academic Impact: Opens a new angle on debugging LVLM hallucinations by tracking semantic drift.</p>
-<p class="impact">Industry Impact: Helps product teams calibrate LVLM inference behavior across modalities.</p>
-</div>
-</div>
-
-<div class='paper-box'>
-<div class='paper-box-image'><div><div class="badge">CVPR 2022</div><img src="images/REMINDER.png" alt='Class similarity weighted knowledge distillation' width='100%'></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Class similarity weighted knowledge distillation for continual semantic segmentation**
-
-Weighted the distillation loss by class similarity to preserve fine-grained structure during incremental learning, significantly reducing forgetting on long-tail categories.
-
-<p class="impact">Academic Impact: Regularly cited in continual segmentation literature as a prototype for class-aware distillation.</p>
-<p class="impact">Industry Impact: Adopted for on-device segmentation updates at Google and inspires continual learning baselines.</p>
+<p class="impact">Impact: Provides a debugging lens on LVLM hallucinations, enabling teams to intervene at the right layers.</p>
 </div>
 </div>
 
@@ -68,10 +53,57 @@ Weighted the distillation loss by class similarity to preserve fine-grained stru
 
 **Seeing the Trees for the Forest: Rethinking Weakly-Supervised Medical Visual Grounding**
 
-Highlights prompt-feature pairings for weakly-supervised grounding, reconciling coarse annotations with fine-grained localization signals in medical imagery.
+Highlights prompt-feature pairings to reconcile coarse annotations with fine-grained localization in medical imaging.
 
-<p class="impact">Academic Impact: Chosen as an ICCV 2025 Highlight for its interpretability contributions.</p>
-<p class="impact">Industry Impact: Supplies guidance for prompt engineering in clinical report generation.</p>
+<p class="impact">Impact: Chosen as an ICCV 2025 Highlight for pushing interpretability in weak supervision.</p>
+</div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src="images/iccv'25-ovg-hq.png" alt='OVG-HQ' width='100%'></div></div>
+<div class='paper-box-text' markdown="1">
+
+**OVG-HQ: Online Video Grounding with Hybrid-modal Queries**
+
+OVG-HQ-Unify leverages a Parametric Memory Block and cross-modal distillation to keep previous knowledge while strengthening weaker modalities in limited-context online settings.
+
+<p class="impact">Impact: Empowers a single model to handle hybrid-modal queries despite modality imbalance.</p>
+</div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-image'><div><div class="badge">IJCAI 2025</div><img src="images/ijcai'25_main_fig_loba.pdf" alt='Localizing Before Answering' width='100%'></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Localizing Before Answering: A Benchmark for Grounded Medical Visual Question Answering**
+
+The Localize-before-Answer (LobA) framework trains LMMs to spot regions of interest and self-prompt on segmented pathological areas before producing answers.
+
+<p class="impact">Impact: Boosts visual reasoning by forcing grounding first, then generating reliable answers.</p>
+</div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src="images/cvpr'24-method.pdf" alt='Decomposing disease descriptions' width='100%'></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Decomposing Disease Descriptions for Enhanced Pathology Detection: A Multi-Aspect Vision-Language Pre-training Framework**
+
+Dissects biomedical texts into aspect-centric representations via LLMs and medical experts, then aligns each aspect with image cues through a dual-head Transformer.
+
+<p class="impact">Impact: Aligns images with disease representations by matching diverse aspects, yielding stronger compatibility scores for known and unknown pathologies.</p>
+</div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-image'><div><div class="badge">CVPR 2022</div><img src="images/REMINDER.png" alt='Class similarity weighted knowledge distillation' width='100%'></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Class similarity weighted knowledge distillation for continual semantic segmentation**
+
+Weights the distillation loss by class similarity to preserve fine-grained structure during incremental learning, reducing forgetting on long-tail categories.
+
+<p class="impact">Impact: Serves as a reference for class-aware distillation in continual segmentation and on-device updates.</p>
 </div>
 </div>
 
