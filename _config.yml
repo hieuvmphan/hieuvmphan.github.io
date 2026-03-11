@@ -6,13 +6,13 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Hieu Scientist"
-description              : "Hieu Research Portfolio"
+title                    : "Hieu Phan · Google Research"
+description              : "Multimodal research and portfolio of Hieu Phan, Research Scientist at Google Research Sydney."
 repository               : "hieuvmphan/hieuvmphan.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/
 
 # SEO Related
 google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
@@ -21,15 +21,15 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Hieu Phan
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
+  name             : "Hieu Phan"
+  avatar           : "https://github.com/hieuvmphan.png"
+  bio              : "Research Scientist at Google Research Sydney focusing on multimodal LLMs, vision-language grounding, knowledge distillation, and continual learning."
   location         : "Sydney, Australia"
-  employer         :
+  employer         : "Google Research"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "hieuvmphan@google.com"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
+  email            : "hieu.phan@google.com"
+  researchgate     :  
   uri              :
   bitbucket        :
   codepen          :
@@ -37,18 +37,18 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "hieuvmphan"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  linkedin         : "https://www.linkedin.com"
+  dblp             : 
+  orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          : 
