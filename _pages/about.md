@@ -20,7 +20,7 @@ Humans perceive the visual world as symbols, reasoning and imagining. My work fo
 
 ## 🔥 News
 - **2026.03:** Two papers accepted at CVPR 2026 on LVLM hallucination detection.
-- **2025.09:** <img src="images/g-logo.jpg" alt="Google logo" class="inline-logo"> Joined Google Research Sydney as a Vision-Language Modeling Research Scientist.
+- **2025.09:** Joined Google <img src="images/g-logo.jpg" alt="Google logo" class="inline-logo"> as a Vision-Language Modeling Research Scientist.
 - **2025.08:** Three papers accepted at ICCV 2025, including an ICCV Highlight on VLM's visual grounding.
 - **2025.02:** One paper accepted at CVPR 2025 on interpretability.
 - **2024.02:** CVPR 2024 accepted the multi-aspect vision-language pre-training.
