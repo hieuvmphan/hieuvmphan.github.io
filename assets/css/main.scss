@@ -174,10 +174,12 @@ h1:before, .anchor:before {
 }
 
 .inline-logo {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     vertical-align: middle;
     margin-right: 0.4rem;
     border-radius: 4px;
+    object-fit: contain;
+    display: inline-block;
 }
 
