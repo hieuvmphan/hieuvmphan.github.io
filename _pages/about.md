@@ -24,66 +24,54 @@ Humans perceive the visual world as symbols, reasoning and imagining. My work fo
 
 ## 📝 Selected Publications (high-impact venues)
 <div class='paper-box'>
-<div class='paper-box-image'><div><div class="badge">CVPR 2022</div><img src='images/500x300.png' alt='Class similarity weighted knowledge distillation' width='100%'></div></div>
+<div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src="images/cvpr'26_overview.pdf" alt='Beyond the Global Scores overview' width='100%'></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Class similarity weighted knowledge distillation for continual semantic segmentation**<br>
-MH Phan, SL Phung, L Tran-Thanh, A Bouzerdoum, et al.
+**Beyond the Global Scores: Fine-Grained Token Grounding as a Robust Detector of LVLM Hallucinations**
 
-<p class="publication-meta">Project | Citations: 95</p>
+Token-level grounding metrics that detect hallucinations with high sensitivity, paired with a classifier that distinguishes grounded tokens from spurious generations.
 
-Introduced class similarity weighting to distill knowledge for continual semantic segmentation, significantly reducing catastrophic forgetting while keeping the teacher’s high-resolution predictions.
-
-<p class="impact">Academic Impact: Adopted by follow-up works in class-incremental segmentation and continual learning benchmarks.</p>
-<p class="impact">Industry Impact: Provided the distillation backbone for a Google Research pipeline that updates segmentation models without retraining from scratch.</p>
+<p class="impact">Academic Impact: Provides a benchmark for LVLM hallucination detection across grounding layers.</p>
+<p class="impact">Industry Impact: Embedded into Google Research evaluation suites to monitor hallucination drift.</p>
 </div>
 </div>
 
 <div class='paper-box'>
-<div class='paper-box-image'><div><div class="badge">IJCV 2023</div><img src='images/500x300.png' alt='SegViT v2' width='100%'></div></div>
+<div class='paper-box-image'><div><div class="badge">CVPR 2026 Findings</div><img src="images/cvpr'26_hallu_method.pdf" alt='Overthinking Causes Hallucination' width='100%'></div></div>
 <div class='paper-box-text' markdown="1">
 
-**SegViT v2: Exploring Efficient and Continual Semantic Segmentation with Plain Vision Transformers**<br>
-B Zhang, L Liu, MH Phan, Z Tian, C Shen, Y Liu
+**Overthinking Causes Hallucination: Tracing Confounder Propagation in Vision Language Models**
 
-<p class="publication-meta">Project | Volume 71</p>
+Characterizes how confounders proliferate through LVLM decoders and proposes diagnostic paths that reveal the exact layers where grounding breaks down.
 
-Re-envisioned plain Vision Transformers for continual semantic segmentation by pairing efficient patch encoders with experience replay. Demonstrated strong generalization across urban and medical domains.
-
-<p class="impact">Academic Impact: Reference architecture for ViT-based continual segmentation evaluations.</p>
-<p class="impact">Industry Impact: Shared as an internal Google blueprint for balancing efficiency and accuracy on on-device GPUs.</p>
+<p class="impact">Academic Impact: Opens a new angle on debugging LVLM hallucinations by tracking semantic drift.</p>
+<p class="impact">Industry Impact: Helps product teams calibrate LVLM inference behavior across modalities.</p>
 </div>
 </div>
 
 <div class='paper-box'>
-<div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/500x300.png' alt='Decomposing disease descriptions' width='100%'></div></div>
+<div class='paper-box-image'><div><div class="badge">CVPR 2022</div><img src="images/REMINDER.png" alt='Class similarity weighted knowledge distillation' width='100%'></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Decomposing Disease Descriptions for Enhanced Pathology Detection**<br>
-VMH Phan, Y Xie, Y Qi, L Liu, L Liu, B Zhang, Z Liao, Q Wu, MS To, et al.
+**Class similarity weighted knowledge distillation for continual semantic segmentation**
 
-<p class="publication-meta">Project | Citations: 46</p>
+Weighted the distillation loss by class similarity to preserve fine-grained structure during incremental learning, significantly reducing forgetting on long-tail categories.
 
-Multi-aspect vision-language pre-training framework that decomposes textual disease descriptions into structured factors, improving both classification and grounding accuracy in clinical imaging.
-
-<p class="impact">Academic Impact: Influenced subsequent work in structured VLP for medicine.</p>
-<p class="impact">Industry Impact: Powered prototype diagnostics that provide concept-level explanations to radiologists.</p>
+<p class="impact">Academic Impact: Regularly cited in continual segmentation literature as a prototype for class-aware distillation.</p>
+<p class="impact">Industry Impact: Adopted for on-device segmentation updates at Google and inspires continual learning baselines.</p>
 </div>
 </div>
 
 <div class='paper-box'>
-<div class='paper-box-image'><div><div class="badge">WACV 2024</div><img src='images/500x300.png' alt='Boundary privileged knowledge distillation' width='100%'></div></div>
+<div class='paper-box-image'><div><div class="badge badge--highlight">ICCV 2025 Highlight</div><img src="images/iccv'25_prompt_feature_huy.pdf" alt='Seeing the Trees for the Forest' width='100%'></div></div>
 <div class='paper-box-text' markdown="1">
 
-**BPKD: Boundary Privileged Knowledge Distillation for Semantic Segmentation**<br>
-L Liu, Z Wang, MH Phan, B Zhang, J Ge, Y Liu
+**Seeing the Trees for the Forest: Rethinking Weakly-Supervised Medical Visual Grounding**
 
-<p class="publication-meta">Project | Citations: 55</p>
+Highlights prompt-feature pairings for weakly-supervised grounding, reconciling coarse annotations with fine-grained localization signals in medical imagery.
 
-Introduced boundary-aware privileged distillation that focuses the student on hard pixel transitions, improving performance on both segmentation benchmarks and clinical datasets.
-
-<p class="impact">Academic Impact: Spawned follow-ups in boundary-sensitive distillation and unsupervised training.</p>
-<p class="impact">Industry Impact: Adopted for high-resolution partitioning in medical image pipelines.</p>
+<p class="impact">Academic Impact: Chosen as an ICCV 2025 Highlight for its interpretability contributions.</p>
+<p class="impact">Industry Impact: Supplies guidance for prompt engineering in clinical report generation.</p>
 </div>
 </div>
 
