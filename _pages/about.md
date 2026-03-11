@@ -28,7 +28,7 @@ Humans perceive the visual world as symbols, reasoning and imagining. My work fo
 - **2022.06:** CVPR 2022 accepted the class similarity weighted knowledge distillation method.
 - **2020.12:** ACL 2020 accepted the LCFS-BERT framework for aspect-based sentiment analysis.
 
-## 📝 Selected Publications (high-impact venues)
+## 📝 Selected Publications
 <div class='paper-box'>
 <div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src="images/cvpr'26_overview.pdf" alt='Beyond the Global Scores overview' width='100%'></div></div>
 <div class='paper-box-text' markdown="1">
