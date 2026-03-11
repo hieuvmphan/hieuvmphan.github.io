@@ -10,13 +10,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hieu Phan is a research scientist at Google Research (Sydney) with a track record of translating multimodal intelligence research into production-ready systems. He specializes in **multimodal LLMs**, **vision-language grounding**, **knowledge distillation**, and **continual learning**. Hieu holds a PhD from the University of Wollongong and completed his postdoctoral work at the Australian Institute for Machine Learning (AIML) at the University of Adelaide.
+Hieu Phan is a research scientist at Google Research (Sydney) with a track record of from fundamental research on multimodal intelligence into production-ready systems. He specializes in **multimodal LLMs**, **vision-language grounding**, **knowledge distillation**, and **continual learning**. Hieu holds a PhD from the University of Wollongong. He completed his postdoctoral research fellow at the Australian Institute for Machine Learning (AIML) at Adelaide University, advised by A/Prof Johan Verjans and Prof. Anton van de Hengel.
 
 <p class="cta"><a href="/files/atlas-hieu-phan-cv.pdf" target="_blank" rel="noopener">Download CV</a></p>
 
 ## Research Statement
 
-Humans perceive the visual world as symbols, reasoning and imagining. My work focuses on linking visual perceptions to concepts so that machines can understand, reason, and predict across language, vision, and audio modalities. I develop robust evaluation pipelines, grounding metrics, and representation models that keep pace with large-scale industrial deployments.
+Humans perceive the visual world as symbols, reasoning and imagining. My work focuses on linking visual perceptions to concepts so that machines can understand, and reason the visual world.
 
 ## 🔥 News
 - **2026.03:** CVPR 2026 accepted two papers on LVLM hallucination detection and confounder tracing.
@@ -173,4 +173,4 @@ Visit the Google Scholar crawler action (see README) to refresh the citation dat
 - Google Research Sydney – Research Scientist (current).
 - Collaborative projects with AIML, University of Adelaide and CSIRO to translate medical grounding research into clinical pilots.
 
-For collaboration or recruitment inquiries, email **hieu.phan@google.com** or connect via [LinkedIn](https://www.linkedin.com).
+For collaboration or recruitment inquiries, email **hieuvmphan@google.com** or connect via [LinkedIn](https://www.linkedin.com/in/hieu-p/).
