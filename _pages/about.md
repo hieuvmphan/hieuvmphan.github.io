@@ -21,16 +21,71 @@ Humans perceive the visual world as symbols, reasoning and imagining. My work fo
 - **2025.10:** Awarded internal Google Research funding to build multi-modal grounding toolkits with clinical collaborators.
 
 ## 📝 Selected Publications (high-impact venues)
-- **(CVPR 2026)** *Beyond the Global Scores: Fine-Grained Token Grounding as a Robust Detector of LVLM Hallucinations.* Token grounding metrics plus an industrial-grade hallucination detector for Google-scale LVLMs. *(Project Lead)*
-- **(CVPR 2026 Findings)** *Overthinking Causes Hallucination: Tracing Confounder Propagation in Vision Language Models.* Analytical study of confounder chains inside LVLM decoders. *(Project Lead)*
-- **(CVPR 2025)** *Interactive Medical Image Analysis with Concept-based Similarity Reasoning.* Combines radiologist-inspired concepts with similarity reasoning for trustworthy diagnostics. *(Project Lead)*
-- **(ICCV 2025)** *Looking in the Mirror: A Faithful Counterfactual Explanation Method for Interpreting Deep Image Classification Models.* Counterfactual explanation pipeline for deep vision systems. *(Project Lead)*
-- **(IJCAI 2025)** *Localizing Before Answering: A Benchmark for Grounded Medical Visual Question Answering.* Benchmark + models for grounded VQA in medicine. *(Project Lead)*
-- **(CVPR 2024)** *Decomposing disease descriptions for enhanced pathology detection: A multi-aspect vision-language pre-training framework.* Multi-aspect VLP for pathology detection. *(Project Lead)*
-- **(IJCV 2023)** *SegViT v2: Exploring Efficient and Continual Semantic Segmentation with Plain Vision Transformers.* Continual segmentation with plain ViT. 
-- **(CVPR 2022)** *Class similarity weighted knowledge distillation for continual semantic segmentation.* Knowledge distillation for continual segmentation. *(Project Lead)*
+<div class='paper-box'>
+<div class='paper-box-image'><div><div class="badge">CVPR 2022</div><img src='images/500x300.png' alt='Class similarity weighted knowledge distillation' width='100%'></div></div>
+<div class='paper-box-text' markdown="1">
 
-Visit the Google Scholar crawler action (see README) to refresh citation badges automatically. You can also embed `<span class='show_paper_citations' data='[google-paper-id]'></span>` for the manuscripts you want to spotlight.
+**Class similarity weighted knowledge distillation for continual semantic segmentation**<br>
+MH Phan, SL Phung, L Tran-Thanh, A Bouzerdoum, et al.
+
+<p class="publication-meta">Project | Citations: 95</p>
+
+Introduced class similarity weighting to distill knowledge for continual semantic segmentation, significantly reducing catastrophic forgetting while keeping the teacher’s high-resolution predictions.
+
+<p class="impact">Academic Impact: Adopted by follow-up works in class-incremental segmentation and continual learning benchmarks.</p>
+<p class="impact">Industry Impact: Provided the distillation backbone for a Google Research pipeline that updates segmentation models without retraining from scratch.</p>
+</div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-image'><div><div class="badge">IJCV 2023</div><img src='images/500x300.png' alt='SegViT v2' width='100%'></div></div>
+<div class='paper-box-text' markdown="1">
+
+**SegViT v2: Exploring Efficient and Continual Semantic Segmentation with Plain Vision Transformers**<br>
+B Zhang, L Liu, MH Phan, Z Tian, C Shen, Y Liu
+
+<p class="publication-meta">Project | Volume 71</p>
+
+Re-envisioned plain Vision Transformers for continual semantic segmentation by pairing efficient patch encoders with experience replay. Demonstrated strong generalization across urban and medical domains.
+
+<p class="impact">Academic Impact: Reference architecture for ViT-based continual segmentation evaluations.</p>
+<p class="impact">Industry Impact: Shared as an internal Google blueprint for balancing efficiency and accuracy on on-device GPUs.</p>
+</div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/500x300.png' alt='Decomposing disease descriptions' width='100%'></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Decomposing Disease Descriptions for Enhanced Pathology Detection**<br>
+VMH Phan, Y Xie, Y Qi, L Liu, L Liu, B Zhang, Z Liao, Q Wu, MS To, et al.
+
+<p class="publication-meta">Project | Citations: 46</p>
+
+Multi-aspect vision-language pre-training framework that decomposes textual disease descriptions into structured factors, improving both classification and grounding accuracy in clinical imaging.
+
+<p class="impact">Academic Impact: Influenced subsequent work in structured VLP for medicine.</p>
+<p class="impact">Industry Impact: Powered prototype diagnostics that provide concept-level explanations to radiologists.</p>
+</div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-image'><div><div class="badge">WACV 2024</div><img src='images/500x300.png' alt='Boundary privileged knowledge distillation' width='100%'></div></div>
+<div class='paper-box-text' markdown="1">
+
+**BPKD: Boundary Privileged Knowledge Distillation for Semantic Segmentation**<br>
+L Liu, Z Wang, MH Phan, B Zhang, J Ge, Y Liu
+
+<p class="publication-meta">Project | Citations: 55</p>
+
+Introduced boundary-aware privileged distillation that focuses the student on hard pixel transitions, improving performance on both segmentation benchmarks and clinical datasets.
+
+<p class="impact">Academic Impact: Spawned follow-ups in boundary-sensitive distillation and unsupervised training.</p>
+<p class="impact">Industry Impact: Adopted for high-resolution partitioning in medical image pipelines.</p>
+</div>
+</div>
+
+Visit the Google Scholar crawler action (see README) to refresh the citation data living under `google-scholar-stats/gs_data_shieldsio.json`. Use `<span class='show_paper_citations' data='[google-paper-id]'></span>` whenever you want to highlight an individual paper’s citation count.
 
 ## 🌱 Research Projects
 - **Vision-Language Hallucination Detection:** Architected token-level grounding diagnostics that detect hallucinations in LVLM outputs and plugged them into Google Research evaluation suites.
