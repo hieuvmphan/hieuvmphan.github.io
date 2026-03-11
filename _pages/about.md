@@ -107,7 +107,7 @@ Dissects biomedical texts into aspect-centric representations via LLMs and medic
 
 
 <div class='paper-box'>
-<div class='paper-box-image'><div><div class="badge">IJCV 2023</div><img src="images/ijcv'25.png" alt='SegViTv2' width='100%'></div></div>
+<div class='paper-box-image'><div><div class="badge">IJCV 2024</div><img src="images/ijcv'25.png" alt='SegViTv2' width='100%'></div></div>
 <div class='paper-box-text' markdown="1">
 
 **SegViTv2: Exploring Efficient and Continual Semantic Segmentation with Plain Vision Transformers**
