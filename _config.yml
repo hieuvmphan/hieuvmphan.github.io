@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Hieu Phan · Google Research"
-description              : "Multimodal research, enabling visual grounded AI."
+description              : "Human-grounded Vision-Language Models"
 repository               : "hieuvmphan/hieuvmphan.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,11 +23,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Hieu Phan"
   avatar           : "https://github.com/hieuvmphan.png"
-  bio              : "Research Scientist@Google. Human-grounded perceptions."
+  bio              : "Research Scientist@Google"
   location         : "Sydney, Australia"
-  employer         : "Google Research"
+  employer         : "Google"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  googlescholar    : "https://scholar.google.com/citations?user=gSEw8EsAAAAJ"
   email            : "hieuvmphan@google.com"
   researchgate     :  
   uri              :
@@ -43,7 +43,7 @@ author:
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/hieu-p/"
+  linkedin         : "hieu-p/"
   dblp             : 
   orcid            : 
   pinterest        :
@@ -136,7 +136,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Australia/Sydney # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
