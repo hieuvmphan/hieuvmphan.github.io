@@ -17,8 +17,10 @@ Hieu Phan is a research scientist at Google Research (Sydney) with a track recor
 Humans perceive the visual world as symbols, reasoning and imagining. My work focuses on linking visual perceptions to concepts so that machines can understand, reason, and predict across language, vision, and audio modalities. I develop robust evaluation pipelines, grounding metrics, and representation models that keep pace with large-scale industrial deployments.
 
 ## 🔥 News
-- **2026.03:** CVPR ’26 papers on LVLM hallucination detection and confounder tracing were accepted, both led from the Google Research Sydney lab.
-- **2025.10:** Awarded internal Google Research funding to build multi-modal grounding toolkits with clinical collaborators.
+- **2026.03:** CVPR 2026 accepted 2 papers on detection pipelines for LVLM hallucinations and confounder propagation.
+- **2025.10:** CVPR 2025 accepted 2 papers (Interactive Medical Image Analysis with Concept-based Similarity Reasoning and Looking in the Mirror: Faithful Counterfactual Explanations).
+- **2025.09:** ICCV 2025 Highlight (medical visual grounding) and recognition as an ICCV 2025 Outstanding Reviewer.
+- **2024.11:** CVPR 2024 accepted 1 paper on multi-aspect pathology descriptions.
 
 ## 📝 Selected Publications (high-impact venues)
 <div class='paper-box'>
@@ -92,15 +94,16 @@ Visit the Google Scholar crawler action (see README) to refresh the citation dat
 - **Medical Visual Grounding + Explainability:** Led concept-based similarity reasoning systems for medical image analysis, pairing counterfactual explanations with expert feedback loops.
 - **Continual & Distillation Systems:** Designed class-independent transformations and multi-head distillation to maintain segmentation accuracy as new domains arrive.
 
-## 🎖 Honors & Funding
-- Competitive Google Research internal funding for grounded medical multimodal systems (2025–2026).
-- Postdoctoral fellowship, Australian Institute for Machine Learning, University of Adelaide.
-- Google PhD fellowship shortlist (finalist).
+## 🎖 Achievements
+- **2023:** Chief Investigator on a $40k research grant from the Channel 7 Children’s Research Foundation for tumor segmentation (see [media link](https://crf.org.au/ai-assisted-contouring-of-sarcomas-to-improve-safety-of-proton-therapy-in-children/)).
+- **2022:** Co-Investigator on a $50k research grant from the Queensland Department of Transport and Main Roads covering scene segmentation for road conditioning assessment.
+- **2021–2023:** University Postgraduate Award (PhD scholarship), University of Wollongong.
+- **2020:** Best Research Paper Award, IEEE SmartIoT Conference.
+- **2017–2019:** Dean’s Merit Award (top 5% in faculty), University of Wollongong.
 
 ## 📖 Education
-- **Postdoctoral Researcher** – Australian Institute for Machine Learning, University of Adelaide.
-- **PhD, Computer Vision & Machine Learning** – University of Wollongong.
-- **BEng (Hons)** – [Add university if preferred].
+- **2020–2023:** Doctor of Philosophy, “Knowledge Distillation and Continual Learning for Optimized Deep Neural Networks,” University of Wollongong.
+- **2017–2019:** Bachelor of Computer Science (GPA 9/10), University of Wollongong.
 
 ## 💬 Invited Talks & Workshops
 - CVPR 2025 Workshop on Vision-Language Alignment (Sydney) – *“Grounded hallucination diagnostics for industrial LVLMs.”*

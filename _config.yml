@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Hieu Phan · Google Research"
-description              : "Multimodal research and portfolio of Hieu Phan, Research Scientist at Google Research Sydney."
+description              : "Multimodal research, enabling visual grounded AI."
 repository               : "hieuvmphan/hieuvmphan.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Hieu Phan"
   avatar           : "https://github.com/hieuvmphan.png"
-  bio              : "Research Scientist at Google Research Sydney focusing on multimodal LLMs, vision-language grounding, knowledge distillation, and continual learning."
+  bio              : "Research Scientist@Google. Human-grounded perceptions."
   location         : "Sydney, Australia"
   employer         : "Google Research"
   pubmed           : 
