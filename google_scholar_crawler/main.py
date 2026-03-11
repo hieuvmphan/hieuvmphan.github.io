@@ -5,7 +5,7 @@ from datetime import datetime
 import os
 
 pg = ProxyGenerator()
-if not pg.FreeProxies():
+if not pg.FreeProxies(repeat=1):
     raise RuntimeError('Unable to configure a proxy for Google Scholar scraping')
 scholarly.use_proxy(pg)
 
