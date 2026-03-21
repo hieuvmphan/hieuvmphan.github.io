@@ -35,9 +35,7 @@ Humans perceive the visual world as symbols, reasoning and imagining. My work fo
 
 **Beyond the Global Scores: Fine-Grained Token Grounding as a Robust Detector of LVLM Hallucinations**
 
-This work introduces fine-grained token grounding to catch LVLM hallucinations early and reliably at generation time.
-
-<p class="impact">Impact: Sets a benchmark for LVLM hallucination detection and keeps grounded tokens distinguishable from noise.</p>
+This paper establishes a strong benchmark for LVLM hallucination detection by using fine-grained token grounding to reliably separate grounded evidence from noisy generations.
 <p class="publication-links"><span class="publication-links__na">Paper: pending</span> · <span class="publication-links__na">Code: pending</span></p>
 </div>
 </div>
@@ -48,9 +46,7 @@ This work introduces fine-grained token grounding to catch LVLM hallucinations e
 
 **Overthinking Causes Hallucination: Tracing Confounder Propagation in Vision Language Models**
 
-This study traces how confounders propagate through LVLM decoders and reveals where grounding begins to drift from visual evidence.
-
-<p class="impact">Impact: Provides a debugging lens on LVLM hallucinations, enabling teams to intervene at the right layers.</p>
+This work pinpoints where confounders propagate in LVLM decoders, providing a practical debugging signal for targeted intervention before hallucinations escalate.
 <p class="publication-links"><a href="https://arxiv.org/pdf/2603.07619" target="_blank" rel="noopener">Paper</a> · <span class="publication-links__na">Code: pending</span></p>
 </div>
 </div>
@@ -61,9 +57,7 @@ This study traces how confounders propagate through LVLM decoders and reveals wh
 
 **Seeing the Trees for the Forest: Rethinking Weakly-Supervised Medical Visual Grounding**
 
-The method improves weakly supervised medical grounding by aligning prompt cues with fine-grained visual evidence.
-
-<p class="impact">Impact: Chosen as an ICCV 2025 Highlight for pushing interpretability in weak supervision.</p>
+This ICCV 2025 Highlight advances weakly supervised medical visual grounding by aligning prompt cues with fine-grained evidence for more interpretable localization.
 <p class="publication-links"><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Huy_Seeing_the_Trees_for_the_Forest_Rethinking_Weakly-Supervised_Medical_Visual_ICCV_2025_paper.pdf" target="_blank" rel="noopener">Paper</a> · <span class="publication-links__na">Code: pending</span></p>
 </div>
 </div>
@@ -74,9 +68,7 @@ The method improves weakly supervised medical grounding by aligning prompt cues 
 
 **OVG-HQ: Online Video Grounding with Hybrid-modal Queries**
 
-OVG-HQ advances online video grounding under hybrid-modal queries by staying robust to modality imbalance and limited context.
-
-<p class="impact">Impact: Empowers a single model to handle hybrid-modal queries despite modality imbalance.</p>
+OVG-HQ enables robust online video grounding with hybrid-modal queries, maintaining strong performance even under severe modality imbalance and limited context.
 <p class="publication-links"><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Zeng_OVG-HQ_Online_Video_Grounding_with_Hybrid-modal_Queries_ICCV_2025_paper.pdf" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/maojiaqi2324/OVG-HQ" target="_blank" rel="noopener">Code</a></p>
 </div>
 </div>
@@ -87,9 +79,7 @@ OVG-HQ advances online video grounding under hybrid-modal queries by staying rob
 
 **Localizing Before Answering: A Benchmark for Grounded Medical Visual Question Answering**
 
-LobA improves grounded medical VQA by requiring models to localize evidence before generating answers.
-
-<p class="impact">Impact: Boosts visual reasoning by forcing grounding first, then generating reliable answers.</p>
+LobA raises grounded medical VQA reliability by enforcing localization before answer generation so predictions are tied to explicit visual evidence.
 <p class="publication-links"><a href="https://www.ijcai.org/proceedings/2025/853" target="_blank" rel="noopener">Paper</a> · <span class="publication-links__na">Code: pending</span></p>
 </div>
 </div>
@@ -100,9 +90,7 @@ LobA improves grounded medical VQA by requiring models to localize evidence befo
 
 **Decomposing Disease Descriptions for Enhanced Pathology Detection: A Multi-Aspect Vision-Language Pre-training Framework**
 
-This framework strengthens pathology detection by aligning multi-aspect disease concepts with image evidence.
-
-<p class="impact">Impact: Aligns images with disease representations by matching diverse aspects, yielding stronger compatibility scores for known and unknown pathologies.</p>
+This framework improves pathology detection by aligning multi-aspect disease concepts with image evidence to better recognize both known and novel clinical patterns.
 <p class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Phan_Decomposing_Disease_Descriptions_for_Enhanced_Pathology_Detection_A_Multi-Aspect_Vision-Language_CVPR_2024_paper.pdf" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/hieuvmphan/CVPR2024_MAVL" target="_blank" rel="noopener">Code</a></p>
 </div>
 </div>
@@ -114,9 +102,7 @@ This framework strengthens pathology detection by aligning multi-aspect disease 
 
 **SegViTv2: Exploring Efficient and Continual Semantic Segmentation with Plain Vision Transformers**
 
-SegViTv2 delivers efficient continual segmentation with lightweight transformer decoding and strong retention of prior knowledge.
-
-<p class="impact">Impact: Converts ViT attentions into high-quality masks while trimming encoder cost, and maintains prior knowledge when adapted to continual segmentation.</p>
+SegViTv2 delivers efficient continual segmentation by converting ViT attention into high-quality masks while preserving prior knowledge with minimal forgetting.
 <p class="publication-links"><a href="https://link.springer.com/article/10.1007/s11263-023-01894-8" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/zbwxp/SegVit" target="_blank" rel="noopener">Code</a></p>
 </div>
 </div>
@@ -127,9 +113,7 @@ SegViTv2 delivers efficient continual segmentation with lightweight transformer 
 
 **Class similarity weighted knowledge distillation for continual semantic segmentation**
 
-This method improves continual semantic segmentation by preserving class structure during incremental updates.
-
-<p class="impact">Impact: Serves as a reference for class-aware distillation in continual segmentation.</p>
+This paper established a class-aware distillation strategy that became a practical reference for reducing forgetting in continual semantic segmentation.
 <p class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Phan_Class_Similarity_Weighted_Knowledge_Distillation_for_Continual_Semantic_Segmentation_CVPR_2022_paper.pdf" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/hieuvmphan/REMINDER" target="_blank" rel="noopener">Code</a></p>
 </div>
 </div>
@@ -140,9 +124,7 @@ This method improves continual semantic segmentation by preserving class structu
 
 **Modelling context and syntactical features for aspect-based sentiment analysis**
 
-LCFS-BERT improved aspect-based sentiment analysis by explicitly modeling syntactic context in Transformer representations.
-
-<p class="impact">Impact: Resolves the syntactical blind spot of Transformers and sets SoTA on aspect extraction and sentiment benchmarks.</p>
+LCFS-BERT addressed a key syntactic weakness in Transformer-based sentiment models and delivered state-of-the-art results for aspect-based sentiment analysis.
 
 <p class="publication-links"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gSEw8EsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=gSEw8EsAAAAJ:u-x6o8ySG0sC" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/hieuvmphan/LCFS-BERT" target="_blank" rel="noopener">Code</a></p>
 </div>

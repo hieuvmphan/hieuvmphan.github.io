@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Hieu Phan"
-  avatar           : "https://github.com/hieuvmphan.png"
+  avatar           : "/images/hieu-profile.jpeg"
   bio              : "Research Scientist@Google"
   location         : "Sydney, Australia"
   employer         : "Google"
