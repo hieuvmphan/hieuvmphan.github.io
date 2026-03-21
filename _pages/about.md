@@ -36,6 +36,8 @@ The goal is to shift VLMs from pattern matching to evidence-based reasoning syst
 - **2022.02:** CVPR 2022 accepted, proposing class-aware distillation for continual segmentation.
 - **2020.12:** ACL 2020 paper introduced LCFS-BERT for syntax-aware aspect-based sentiment analysis.
 
+<span class='anchor' id='publications'></span>
+
 ## 📝 Selected Publications
 <div class='paper-box'>
 <div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src="images/cvpr'26_overview.pdf" alt='Beyond the Global Scores overview' width='100%'></div></div>
@@ -144,6 +146,8 @@ LCFS-BERT addressed a key syntactic weakness in Transformer-based sentiment mode
 - **Vision-Language Hallucination Detection:** Architected token-level grounding diagnostics that detect hallucinations in LVLM outputs.
 - **Perception-grounded Vision-Language Model:** Created multimodal LLMs and VLMs that ground on visual evidence before predicting. Created proof-of-concept model on medical imaging domain.
 - **Continual & Distillation Systems:** Designed knowledge distillation framework for model compression and continual learning via knowledge anchor.
+
+<span class='anchor' id='honors-awards'></span>
 
 ## 🎖 Achievements
 - **2023:** Chief Investigator on a $40k grant from the Channel 7 Children’s Research Foundation for AI-assisted pediatric tumor segmentation (see [media link](https://crf.org.au/ai-assisted-contouring-of-sarcomas-to-improve-safety-of-proton-therapy-in-children/)).
