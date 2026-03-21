@@ -21,18 +21,19 @@ Current vision-language models remain data-hungry and often rely on spurious cor
 ## Research Agenda
 
 My work advances grounded visual reasoning in VLMs through two connected directions:
-- **Diagnosis:** Dissect and identify when visual hallucination arises within internal layers of VLMs.
+- **Hallucination Diagnosis:** Dissect and identify when visual hallucination arises within internal layers of VLMs.
 - **Human-centric Intervention:** Design human priors that enforce visual grounding, and correct hallucinatory behaviors.
 
 The goal is to shift VLMs from pattern matching to evidence-based reasoning systems that generalize efficiently in real settings.
 
 ## 🔥 News
-- **2026.03:** Two CVPR 2026 papers accepted on LVLM hallucination diagnosis and detection.
+- **2026.03:** Two CVPR 2026 papers accepted on LVLM hallucination diagnosis and detection!
 - **2025.09:** Joined Google <img src="images/g-logo.jpg" alt="Google logo" class="inline-logo"> as a Vision-Language Modeling Research Scientist.
-- **2025.08:** Three ICCV 2025 papers accepted, including an **ICCV Highlight** on weakly supervised medical visual grounding.
-- **2024.02:** CVPR 2024 paper introduced multi-aspect vision-language pre-training for pathology detection.
+- **2025.10:** Awarded ICCV 2025 Outstanding Reviewer.
+- **2025.08:** Three ICCV 2025 papers accepted, including an **ICCV Highlight** on weakly supervised  visual grounding!
+- **2024.02:** One CVPR 2024 paper accepted on multi-aspect vision-language pre-training.
 - **2023.08:** IJCV published SegViTv2 on efficient and continual segmentation with Vision Transformers.
-- **2022.02:** CVPR 2022 paper proposed class-aware distillation for continual segmentation.
+- **2022.02:** CVPR 2022 accepted, proposing class-aware distillation for continual segmentation.
 - **2020.12:** ACL 2020 paper introduced LCFS-BERT for syntax-aware aspect-based sentiment analysis.
 
 ## 📝 Selected Publications
