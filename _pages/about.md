@@ -43,7 +43,7 @@ The goal is to shift VLMs from pattern matching to evidence-based reasoning syst
 
 **Beyond the Global Scores: Fine-Grained Token Grounding as a Robust Detector of LVLM Hallucinations**
 
-This paper establishes a strong benchmark for LVLM hallucination detection by using fine-grained token grounding to reliably separate grounded evidence from noisy generations.
+A breakthrough framework reveals insufficient token-grounding ability within VLM's internal layers when hallucination arises. This insight helps establish a strong benchmark for LVLM hallucination detection.
 <p class="publication-links"><span class="publication-links__na">Paper: pending</span> · <span class="publication-links__na">Code: pending</span></p>
 </div>
 </div>
@@ -54,7 +54,7 @@ This paper establishes a strong benchmark for LVLM hallucination detection by us
 
 **Overthinking Causes Hallucination: Tracing Confounder Propagation in Vision Language Models**
 
-This work pinpoints where confounders propagate in LVLM decoders, providing a practical debugging signal for targeted intervention before hallucinations escalate.
+A novel study pinpoints where confounders propagate in LVLM decoders, providing a practical debugging signal for targeted intervention before hallucinations escalate.
 <p class="publication-links"><a href="https://arxiv.org/pdf/2603.07619" target="_blank" rel="noopener">Paper</a> · <span class="publication-links__na">Code: pending</span></p>
 </div>
 </div>
@@ -65,7 +65,7 @@ This work pinpoints where confounders propagate in LVLM decoders, providing a pr
 
 **Seeing the Trees for the Forest: Rethinking Weakly-Supervised Medical Visual Grounding**
 
-This ICCV 2025 Highlight advances weakly supervised medical visual grounding by aligning prompt cues with fine-grained evidence for more interpretable localization.
+This ICCV 2025 Highlight advances weakly supervised medical visual grounding by aligning prompt cues with fine-grained evidence.
 <p class="publication-links"><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Huy_Seeing_the_Trees_for_the_Forest_Rethinking_Weakly-Supervised_Medical_Visual_ICCV_2025_paper.pdf" target="_blank" rel="noopener">Paper</a> · <span class="publication-links__na">Code: pending</span></p>
 </div>
 </div>
@@ -87,7 +87,7 @@ OVG-HQ enables robust online video grounding with hybrid-modal queries, maintain
 
 **Localizing Before Answering: A Benchmark for Grounded Medical Visual Question Answering**
 
-LobA raises grounded medical VQA reliability by enforcing localization before answer generation so predictions are tied to explicit visual evidence.
+LobA, a novel MLLM model, reduces hallucinations by enforcing localization before answer generation.
 <p class="publication-links"><a href="https://www.ijcai.org/proceedings/2025/853" target="_blank" rel="noopener">Paper</a> · <span class="publication-links__na">Code: pending</span></p>
 </div>
 </div>
@@ -98,7 +98,7 @@ LobA raises grounded medical VQA reliability by enforcing localization before an
 
 **Decomposing Disease Descriptions for Enhanced Pathology Detection: A Multi-Aspect Vision-Language Pre-training Framework**
 
-This framework improves pathology detection by aligning multi-aspect disease concepts with image evidence to better recognize both known and novel clinical patterns.
+MAVL (pronounced as 'Marvel') improves generalizability of medical vision-language model by aligning multi-aspect disease concepts with image evidence.
 <p class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Phan_Decomposing_Disease_Descriptions_for_Enhanced_Pathology_Detection_A_Multi-Aspect_Vision-Language_CVPR_2024_paper.pdf" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/hieuvmphan/CVPR2024_MAVL" target="_blank" rel="noopener">Code</a></p>
 </div>
 </div>
