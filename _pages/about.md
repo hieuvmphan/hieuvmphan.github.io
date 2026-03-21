@@ -10,23 +10,30 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hieu Phan is a research scientist at Google Research (Sydney) with a track record of from fundamental research on multimodal intelligence into production-ready systems. He specializes in **multimodal LLMs**, **vision-language grounding**, **knowledge distillation**, and **continual learning**. Hieu holds a PhD from the University of Wollongong. He completed his postdoctoral research fellow at the Australian Institute for Machine Learning (AIML) at Adelaide University, advised by [Prof. Anton van de Hengel](https://www.google.com/search?client=safari&rls=en&q=Anton+van+de+Hengel&ie=UTF-8&oe=UTF-8) and [A/Prof Johan Verjans](https://scholar.google.com/citations?user=57JVdyIAAAAJ&hl=en).
+Hieu Phan is a research scientist at Google Research (Sydney) with a track record of from fundamental research on multimodal intelligence into production-ready systems. He specializes in **multimodal LLMs**, **vision-language grounding**, **knowledge distillation**, and **continual learning**. Hieu holds a PhD from the University of Wollongong. He completed his postdoctoral research fellow at the Australian Institute for Machine Learning (AIML), Adelaide University, advised by [Prof. Anton van de Hengel](https://www.google.com/search?client=safari&rls=en&q=Anton+van+de+Hengel&ie=UTF-8&oe=UTF-8) and [A/Prof Johan Verjans](https://scholar.google.com/citations?user=57JVdyIAAAAJ&hl=en).
 
 <p class="cta"><a href="/files/atlas-hieu-phan-cv.pdf" target="_blank" rel="noopener">Download CV</a></p>
 
 ## Research Statement
 
-Humans perceive the visual world as symbols, reasoning and imagining. My work focuses on linking visual perceptions to concepts so that machines can understand, and reason the visual world.
+Current vision-language models remain data-hungry and often rely on spurious correlations, unlike humans who reason through symbols and concepts. My research builds concept-grounded visual reasoning systems that link perception to semantic evidence so models become more data-efficient, reliable, and interpretable.
+
+## Research Agenda
+
+My work advances grounded visual reasoning in VLMs through two connected directions:
+- **Diagnosis:** Dissect and identify when visual hallucination arises within internal layers of VLMs.
+- **Human-centric Intervention:** Design human priors that enforce visual grounding, and correct hallucinatory behaviors.
+
+The goal is to shift VLMs from pattern matching to evidence-based reasoning systems that generalize efficiently in real settings.
 
 ## 🔥 News
-- **2026.03:** Two papers accepted at CVPR 2026 on LVLM hallucination detection.
+- **2026.03:** Two CVPR 2026 papers accepted on LVLM hallucination diagnosis and detection.
 - **2025.09:** Joined Google <img src="images/g-logo.jpg" alt="Google logo" class="inline-logo"> as a Vision-Language Modeling Research Scientist.
-- **2025.08:** Three papers accepted at ICCV 2025, including an ICCV Highlight on VLM's visual grounding.
-- **2025.02:** One paper accepted at CVPR 2025 on interpretability.
-- **2024.02:** CVPR 2024 accepted the multi-aspect vision-language pre-training.
-- **2023.08:** IJCV published SegViTv2 for efficient Transformer-based segmentation models.
-- **2022.02:** One paper accepted at CVPR 2022 on knowledge distillation for continual segmentation.
-- **2020.12:** One paper accepted at ACL 2020 for syntactical-enhanced BERT model.
+- **2025.08:** Three ICCV 2025 papers accepted, including an **ICCV Highlight** on weakly supervised medical visual grounding.
+- **2024.02:** CVPR 2024 paper introduced multi-aspect vision-language pre-training for pathology detection.
+- **2023.08:** IJCV published SegViTv2 on efficient and continual segmentation with Vision Transformers.
+- **2022.02:** CVPR 2022 paper proposed class-aware distillation for continual segmentation.
+- **2020.12:** ACL 2020 paper introduced LCFS-BERT for syntax-aware aspect-based sentiment analysis.
 
 ## 📝 Selected Publications
 <div class='paper-box'>
@@ -138,9 +145,10 @@ LCFS-BERT addressed a key syntactic weakness in Transformer-based sentiment mode
 - **Continual & Distillation Systems:** Designed knowledge distillation framework for model compression and continual learning via knowledge anchor.
 
 ## 🎖 Achievements
-- **2023:** Chief Investigator on a $40k research grant from the Channel 7 Children’s Research Foundation for tumor segmentation (see [media link](https://crf.org.au/ai-assisted-contouring-of-sarcomas-to-improve-safety-of-proton-therapy-in-children/)).
-- **2022:** Co-Investigator on a $50k research grant from the Queensland Department of Transport and Main Roads covering scene segmentation for road conditioning assessment.
+- **2023:** Chief Investigator on a $40k grant from the Channel 7 Children’s Research Foundation for AI-assisted pediatric tumor segmentation (see [media link](https://crf.org.au/ai-assisted-contouring-of-sarcomas-to-improve-safety-of-proton-therapy-in-children/)).
+- **2022:** Co-Investigator on a $50k Queensland Department of Transport and Main Roads grant for scene segmentation in road-condition assessment.
 - **2021–2023:** University Postgraduate Award (PhD scholarship), University of Wollongong.
+- **2025:** ICCV 2025 Highlight paper on weakly supervised medical visual grounding.
 <!-- - **2020:** Best Research Paper Award, IEEE SmartIoT Conference. -->
 - **2017–2019:** Dean’s Merit Award (top 5% in faculty), University of Wollongong.
 
