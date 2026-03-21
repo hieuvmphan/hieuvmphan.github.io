@@ -10,7 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hieu Phan is a research scientist at Google Research (Sydney) with a track record of from fundamental research on multimodal intelligence into production-ready systems. He specializes in **multimodal LLMs**, **vision-language grounding**, **knowledge distillation**, and **continual learning**. Hieu holds a PhD from the University of Wollongong. He completed his postdoctoral research fellow at the Australian Institute for Machine Learning (AIML) at Adelaide University, advised by A/Prof Johan Verjans and Prof. Anton van de Hengel.
+Hieu Phan is a research scientist at Google Research (Sydney) with a track record of from fundamental research on multimodal intelligence into production-ready systems. He specializes in **multimodal LLMs**, **vision-language grounding**, **knowledge distillation**, and **continual learning**. Hieu holds a PhD from the University of Wollongong. He completed his postdoctoral research fellow at the Australian Institute for Machine Learning (AIML) at Adelaide University, advised by [Prof. Anton van de Hengel](https://www.google.com/search?client=safari&rls=en&q=Anton+van+de+Hengel&ie=UTF-8&oe=UTF-8) and [A/Prof Johan Verjans](https://scholar.google.com/citations?user=57JVdyIAAAAJ&hl=en).
 
 <p class="cta"><a href="/files/atlas-hieu-phan-cv.pdf" target="_blank" rel="noopener">Download CV</a></p>
 
@@ -35,9 +35,10 @@ Humans perceive the visual world as symbols, reasoning and imagining. My work fo
 
 **Beyond the Global Scores: Fine-Grained Token Grounding as a Robust Detector of LVLM Hallucinations**
 
-Token-level grounding metrics detect hallucinations with high sensitivity and flag spurious generations before they leave the model stack.
+This work introduces fine-grained token grounding to catch LVLM hallucinations early and reliably at generation time.
 
 <p class="impact">Impact: Sets a benchmark for LVLM hallucination detection and keeps grounded tokens distinguishable from noise.</p>
+<p class="publication-links"><span class="publication-links__na">Paper: pending</span> · <span class="publication-links__na">Code: pending</span></p>
 </div>
 </div>
 
@@ -47,9 +48,10 @@ Token-level grounding metrics detect hallucinations with high sensitivity and fl
 
 **Overthinking Causes Hallucination: Tracing Confounder Propagation in Vision Language Models**
 
-Analyzes confounder paths inside LVLM decoders and surfaces the layers where grounding diverges from actual context.
+This study traces how confounders propagate through LVLM decoders and reveals where grounding begins to drift from visual evidence.
 
 <p class="impact">Impact: Provides a debugging lens on LVLM hallucinations, enabling teams to intervene at the right layers.</p>
+<p class="publication-links"><a href="https://arxiv.org/pdf/2603.07619" target="_blank" rel="noopener">Paper</a> · <span class="publication-links__na">Code: pending</span></p>
 </div>
 </div>
 
@@ -59,7 +61,7 @@ Analyzes confounder paths inside LVLM decoders and surfaces the layers where gro
 
 **Seeing the Trees for the Forest: Rethinking Weakly-Supervised Medical Visual Grounding**
 
-Highlights prompt-feature pairings to reconcile coarse annotations with fine-grained localization in medical imaging.
+The method improves weakly supervised medical grounding by aligning prompt cues with fine-grained visual evidence.
 
 <p class="impact">Impact: Chosen as an ICCV 2025 Highlight for pushing interpretability in weak supervision.</p>
 <p class="publication-links"><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Huy_Seeing_the_Trees_for_the_Forest_Rethinking_Weakly-Supervised_Medical_Visual_ICCV_2025_paper.pdf" target="_blank" rel="noopener">Paper</a> · <span class="publication-links__na">Code: pending</span></p>
@@ -72,7 +74,7 @@ Highlights prompt-feature pairings to reconcile coarse annotations with fine-gra
 
 **OVG-HQ: Online Video Grounding with Hybrid-modal Queries**
 
-OVG-HQ-Unify leverages a Parametric Memory Block and cross-modal distillation to keep previous knowledge while strengthening weaker modalities in limited-context online settings.
+OVG-HQ advances online video grounding under hybrid-modal queries by staying robust to modality imbalance and limited context.
 
 <p class="impact">Impact: Empowers a single model to handle hybrid-modal queries despite modality imbalance.</p>
 <p class="publication-links"><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Zeng_OVG-HQ_Online_Video_Grounding_with_Hybrid-modal_Queries_ICCV_2025_paper.pdf" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/maojiaqi2324/OVG-HQ" target="_blank" rel="noopener">Code</a></p>
@@ -85,7 +87,7 @@ OVG-HQ-Unify leverages a Parametric Memory Block and cross-modal distillation to
 
 **Localizing Before Answering: A Benchmark for Grounded Medical Visual Question Answering**
 
-The Localize-before-Answer (LobA) framework trains LMMs to spot regions of interest and self-prompt on segmented pathological areas before producing answers.
+LobA improves grounded medical VQA by requiring models to localize evidence before generating answers.
 
 <p class="impact">Impact: Boosts visual reasoning by forcing grounding first, then generating reliable answers.</p>
 <p class="publication-links"><a href="https://www.ijcai.org/proceedings/2025/853" target="_blank" rel="noopener">Paper</a> · <span class="publication-links__na">Code: pending</span></p>
@@ -98,7 +100,7 @@ The Localize-before-Answer (LobA) framework trains LMMs to spot regions of inter
 
 **Decomposing Disease Descriptions for Enhanced Pathology Detection: A Multi-Aspect Vision-Language Pre-training Framework**
 
-Dissects biomedical texts into aspect-centric representations via LLMs and medical experts, then aligns each aspect with image cues through a dual-head Transformer.
+This framework strengthens pathology detection by aligning multi-aspect disease concepts with image evidence.
 
 <p class="impact">Impact: Aligns images with disease representations by matching diverse aspects, yielding stronger compatibility scores for known and unknown pathologies.</p>
 <p class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Phan_Decomposing_Disease_Descriptions_for_Enhanced_Pathology_Detection_A_Multi-Aspect_Vision-Language_CVPR_2024_paper.pdf" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/hieuvmphan/CVPR2024_MAVL" target="_blank" rel="noopener">Code</a></p>
@@ -112,7 +114,7 @@ Dissects biomedical texts into aspect-centric representations via LLMs and medic
 
 **SegViTv2: Exploring Efficient and Continual Semantic Segmentation with Plain Vision Transformers**
 
-SegViTv2 couples an Attention-to-Mask decoder with a Shrunk++ encoder so ViT attention maps become lightweight semantic masks, enabling efficient segmentation with near-zero forgetting.
+SegViTv2 delivers efficient continual segmentation with lightweight transformer decoding and strong retention of prior knowledge.
 
 <p class="impact">Impact: Converts ViT attentions into high-quality masks while trimming encoder cost, and maintains prior knowledge when adapted to continual segmentation.</p>
 <p class="publication-links"><a href="https://link.springer.com/article/10.1007/s11263-023-01894-8" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/zbwxp/SegVit" target="_blank" rel="noopener">Code</a></p>
@@ -125,7 +127,7 @@ SegViTv2 couples an Attention-to-Mask decoder with a Shrunk++ encoder so ViT att
 
 **Class similarity weighted knowledge distillation for continual semantic segmentation**
 
-Weights the distillation loss by class similarity to preserve fine-grained structure during incremental learning, reducing forgetting on long-tail categories.
+This method improves continual semantic segmentation by preserving class structure during incremental updates.
 
 <p class="impact">Impact: Serves as a reference for class-aware distillation in continual segmentation.</p>
 <p class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Phan_Class_Similarity_Weighted_Knowledge_Distillation_for_Continual_Semantic_Segmentation_CVPR_2022_paper.pdf" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/hieuvmphan/REMINDER" target="_blank" rel="noopener">Code</a></p>
@@ -138,7 +140,7 @@ Weights the distillation loss by class similarity to preserve fine-grained struc
 
 **Modelling context and syntactical features for aspect-based sentiment analysis**
 
-Introduced LCFS-BERT, the first framework to bridge the syntactical gap in Transformer models for aspect extraction and sentiment classification, delivering new state-of-the-art results in 2020.
+LCFS-BERT improved aspect-based sentiment analysis by explicitly modeling syntactic context in Transformer representations.
 
 <p class="impact">Impact: Resolves the syntactical blind spot of Transformers and sets SoTA on aspect extraction and sentiment benchmarks.</p>
 
