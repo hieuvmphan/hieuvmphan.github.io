@@ -46,7 +46,7 @@ The goal is to shift VLMs from pattern matching to evidence-based reasoning syst
 **Beyond the Global Scores: Fine-Grained Token Grounding as a Robust Detector of LVLM Hallucinations**
 
 A breakthrough framework reveals insufficient token-grounding ability within VLM's internal layers when hallucination arises. This insight helps establish a strong benchmark for LVLM hallucination detection.
-<p class="publication-links"><span class="publication-links__na">Paper: pending</span> · <a href="https://token-grounding-detection-cvpr26.github.io" target="_blank" rel="noopener">Project</a> · <span class="publication-links__na">Code: pending</span></p>
+<p class="publication-links"><a href="https://arxiv.org/html/2604.04863v1" target="_blank" rel="noopener">Paper</a> · <a href="https://token-grounding-detection-cvpr26.github.io" target="_blank" rel="noopener">Project</a> · <span class="publication-links__na">Code: pending</span></p>
 </div>
 </div>
 
@@ -58,6 +58,17 @@ A breakthrough framework reveals insufficient token-grounding ability within VLM
 
 A novel study pinpoints where confounders propagate in LVLM decoders, providing a practical debugging signal for targeted intervention before hallucinations escalate.
 <p class="publication-links"><a href="https://arxiv.org/pdf/2603.07619" target="_blank" rel="noopener">Paper</a> · <a href="https://overthinking-cvpr26.github.io/Overthinking-VLMs-CVPR26.github.io/" target="_blank" rel="noopener">Project</a> · <span class="publication-links__na">Code: pending</span></p>
+</div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-image'><div><div class="badge">ACL 2026 Oral</div><img src="images/mmclip_figure1.png" alt='MMCLIP Figure 1' width='100%'></div></div>
+<div class='paper-box-text' markdown="1">
+
+**MMCLIP: Cross-Modal Attention Masked Modelling for Medical Language-Image Pre-Training**
+
+We developed MMCLIP to help VLMs learn rare pathological features under scarce data by combining paired and unpaired data with attention-masked image modeling and entity-driven language modeling.
+<p class="publication-links"><a href="https://arxiv.org/abs/2407.19546" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/AIGeeksGroup/MMCLIP" target="_blank" rel="noopener">Code</a></p>
 </div>
 </div>
 
