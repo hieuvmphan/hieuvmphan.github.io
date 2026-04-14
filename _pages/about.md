@@ -10,13 +10,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hieu Phan is a research scientist at Google Research (Sydney) with a track record of from fundamental research on multimodal intelligence into production-ready systems. He specializes in **multimodal LLMs**, **vision-language grounding**, **knowledge distillation**, and **continual learning**. Hieu holds a PhD from the University of Wollongong. He completed his postdoctoral research fellow at the Australian Institute for Machine Learning (AIML), Adelaide University, advised by [Prof. Anton van de Hengel](https://www.google.com/search?client=safari&rls=en&q=Anton+van+de+Hengel&ie=UTF-8&oe=UTF-8) and [A/Prof Johan Verjans](https://scholar.google.com/citations?user=57JVdyIAAAAJ&hl=en).
+Hieu Phan is a research scientist at Google Research (Sydney) with a track record of fundamental and translational research on multimodal intelligences. He specializes in **multimodal LLMs**, **vision-language grounding**, **knowledge distillation**, and **continual learning**. Hieu holds a PhD from the University of Wollongong. He completed his postdoctoral research fellow at the Australian Institute for Machine Learning (AIML), Adelaide University, advised by [Prof. Anton van de Hengel](https://www.google.com/search?client=safari&rls=en&q=Anton+van+de+Hengel&ie=UTF-8&oe=UTF-8) and [A/Prof Johan Verjans](https://scholar.google.com/citations?user=57JVdyIAAAAJ&hl=en).
 
 <p class="cta"><a href="/files/atlas-hieu-phan-cv.pdf" target="_blank" rel="noopener">Download CV</a></p>
 
 ## Research Statement
 
-Current vision-language models remain data-hungry and often rely on spurious correlations, unlike humans who reason through symbols and concepts. My research builds concept-grounded visual reasoning systems that link perception to semantic evidence so models become more data-efficient, reliable, and interpretable.
+Current vision-language models remain data-hungry and often rely on spurious correlations; yet, humans reason through symbols and concepts. My research pioneers concept- and symbol-grounded vision-language models. These models tie VLM reasoning to visual evidence, improving reliability, interpretability, and robustness to hallucination.
 
 ## Research Agenda
 
