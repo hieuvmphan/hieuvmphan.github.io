@@ -27,6 +27,7 @@ My work advances grounded visual reasoning in VLMs through two connected directi
 The goal is to shift VLMs from pattern matching to evidence-based reasoning systems that generalize efficiently in real settings.
 
 ## 🔥 News
+- **2026.04.18:** MMCLIP accepted to ACL 2026 as an Oral presentation.
 - **2026.03:** Two CVPR 2026 papers accepted on LVLM hallucination diagnosis and detection!
 - **2025.09:** Joined Google <img src="images/g-logo.jpg" alt="Google logo" class="inline-logo"> as a Vision-Language Modeling Research Scientist.
 - **2025.10:** Awarded ICCV 2025 Outstanding Reviewer.
